@@ -1,8 +1,8 @@
 {
-	"name": "cebe/php-openapi",
-	"description": "READ OpenAPI yaml files and make the content accessable in PHP objects.",
+	"name": "totem3/php-openapi-for70",
+	"description": "fork of cebe/php-openapi in order to use from PHP7.0 temporarily",
 	"keywords": ["openapi"],
-	"homepage": "https://github.com/cebe/php-openapi#readme",
+	"homepage": "https://github.com/totem3/php-openapi#readme",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
