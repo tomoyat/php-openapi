@@ -57,7 +57,7 @@ class ReferenceContext
         throw new UnresolvableReferenceException('Can not resolve references for a specification given as a relative path.');
     }
 
-    public function getBaseSpec(): ?SpecObjectInterface
+    public function getBaseSpec()
     {
         return $this->_baseSpec;
     }

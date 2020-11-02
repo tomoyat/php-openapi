@@ -135,7 +135,7 @@ class Reference implements SpecObjectInterface, DocumentContextInterface
     /**
      * @return ReferenceContext
      */
-    public function getContext() : ?ReferenceContext
+    public function getContext() 
     {
         return $this->_context;
     }
@@ -323,7 +323,7 @@ class Reference implements SpecObjectInterface, DocumentContextInterface
      * @return SpecObjectInterface|null returns the base document where this object is located in.
      * Returns `null` if no context information was provided by [[setDocumentContext]].
      */
-    public function getBaseDocument(): ?SpecObjectInterface
+    public function getBaseDocument()
     {
         return $this->_baseDocument;
     }
@@ -332,7 +332,7 @@ class Reference implements SpecObjectInterface, DocumentContextInterface
      * @return JsonPointer|null returns a JSON pointer describing the position of this object in the base document.
      * Returns `null` if no context information was provided by [[setDocumentContext]].
      */
-    public function getDocumentPosition(): ?JsonPointer
+    public function getDocumentPosition()
     {
         return $this->_jsonPointer;
     }

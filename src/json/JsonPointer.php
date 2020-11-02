@@ -77,7 +77,7 @@ final class JsonPointer
      * @return JsonPointer|null a new JSON pointer pointing to the parent element
      * or null if this pointer already points to the document root.
      */
-    public function parent(): ?JsonPointer
+    public function parent()
     {
         $path = $this->getPath();
         if (empty($path)) {

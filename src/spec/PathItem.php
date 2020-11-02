@@ -124,7 +124,7 @@ class PathItem extends SpecBaseObject
      * In this case the behavior is *undefined*.
      * @return Reference|null
      */
-    public function getReference(): ?Reference
+    public function getReference()
     {
         return $this->_ref;
     }
